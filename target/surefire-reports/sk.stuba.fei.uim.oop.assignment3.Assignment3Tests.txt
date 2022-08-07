@@ -1,0 +1,275 @@
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests
+-------------------------------------------------------------------------------
+Tests run: 44, Failures: 44, Errors: 0, Skipped: 0, Time elapsed: 5.38 s <<< FAILURE! - in sk.stuba.fei.uim.oop.assignment3.Assignment3Tests
+testUpdateMissingBook  Time elapsed: 0.209 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addBook(Assignment3Tests.java:712)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testUpdateMissingBook(Assignment3Tests.java:214)
+
+deletingAuthorRemovesBooks  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.deletingAuthorRemovesBooks(Assignment3Tests.java:368)
+
+testDeleteListById  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:753)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:747)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testDeleteListById(Assignment3Tests.java:443)
+
+addBookToList  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:753)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:747)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addBookToList(Assignment3Tests.java:465)
+
+testGetAllAuthors  Time elapsed: 0.182 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetAllAuthors(Assignment3Tests.java:79)
+
+testRemoveLendedList  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:753)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:747)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testRemoveLendedList(Assignment3Tests.java:643)
+
+testAddAuthor201  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<405>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testAddAuthor201(Assignment3Tests.java:45)
+
+testGetMissingBookAmount  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addBook(Assignment3Tests.java:712)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetMissingBookAmount(Assignment3Tests.java:278)
+
+testLendList  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:753)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:747)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testLendList(Assignment3Tests.java:534)
+
+testAddBook  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addBook(Assignment3Tests.java:712)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testAddBook(Assignment3Tests.java:50)
+
+testGetListById  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:753)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:747)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetListById(Assignment3Tests.java:408)
+
+deletedBookRemovedFromAuthor  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.deletedBookRemovedFromAuthor(Assignment3Tests.java:341)
+
+testLendListTwice  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:753)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:747)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testLendListTwice(Assignment3Tests.java:571)
+
+removeBookFromList  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:753)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:747)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.removeBookFromList(Assignment3Tests.java:507)
+
+testAddShoppingCart201  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<404>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:753)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testAddShoppingCart201(Assignment3Tests.java:403)
+
+testGetAllBooks  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetAllBooks(Assignment3Tests.java:63)
+
+testGetAllLists  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetAllLists(Assignment3Tests.java:430)
+
+testUpdateBook  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addBook(Assignment3Tests.java:712)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testUpdateBook(Assignment3Tests.java:129)
+
+testGetBookAmount  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addBook(Assignment3Tests.java:712)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetBookAmount(Assignment3Tests.java:266)
+
+testGetBookById  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addBook(Assignment3Tests.java:712)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetBookById(Assignment3Tests.java:91)
+
+testDeleteMissingBook  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addBook(Assignment3Tests.java:712)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testDeleteMissingBook(Assignment3Tests.java:252)
+
+testGetMissingAuthorById  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetMissingAuthorById(Assignment3Tests.java:121)
+
+testUpdateAuthor  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testUpdateAuthor(Assignment3Tests.java:187)
+
+testDeleteAuthor  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testDeleteAuthor(Assignment3Tests.java:243)
+
+addBookToListMissingBook  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:753)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:747)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addBookToListMissingBook(Assignment3Tests.java:475)
+
+addBookToListMissingList  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:753)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:747)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addBookToListMissingList(Assignment3Tests.java:482)
+
+testGetMissingListById  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:753)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:747)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetMissingListById(Assignment3Tests.java:419)
+
+testGetAuthorById  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetAuthorById(Assignment3Tests.java:102)
+
+testAddAuthor  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testAddAuthor(Assignment3Tests.java:40)
+
+testDeleteMissingAuthor  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testDeleteMissingAuthor(Assignment3Tests.java:259)
+
+addBookToLendedList  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:753)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:747)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addBookToLendedList(Assignment3Tests.java:586)
+
+addBookToListExistingBook  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:753)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:747)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addBookToListExistingBook(Assignment3Tests.java:489)
+
+testAddShoppingCart  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:753)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:747)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testAddShoppingCart(Assignment3Tests.java:398)
+
+testGetMissingBookLendCount  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addBook(Assignment3Tests.java:712)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetMissingBookLendCount(Assignment3Tests.java:333)
+
+testUpdateMissingAuthor  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testUpdateMissingAuthor(Assignment3Tests.java:224)
+
+testGetMissingBookById  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addBook(Assignment3Tests.java:712)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetMissingBookById(Assignment3Tests.java:113)
+
+testLendMissingList  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:753)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:747)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testLendMissingList(Assignment3Tests.java:560)
+
+testGetBookLendCount  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addBook(Assignment3Tests.java:712)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetBookLendCount(Assignment3Tests.java:321)
+
+testDeleteBook  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addBook(Assignment3Tests.java:712)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testDeleteBook(Assignment3Tests.java:234)
+
+testRemoveUnlendedList  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:753)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:747)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testRemoveUnlendedList(Assignment3Tests.java:621)
+
+testAddBook201  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testAddBook201(Assignment3Tests.java:55)
+
+testIncrementMissingBookAmount  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addBook(Assignment3Tests.java:712)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testIncrementMissingBookAmount(Assignment3Tests.java:309)
+
+testIncrementBookAmount  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 405 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:701)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addAuthor(Assignment3Tests.java:690)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addBook(Assignment3Tests.java:712)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testIncrementBookAmount(Assignment3Tests.java:286)
+
+testDeleteMissingListById  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:753)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addList(Assignment3Tests.java:747)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testDeleteMissingListById(Assignment3Tests.java:456)
+
